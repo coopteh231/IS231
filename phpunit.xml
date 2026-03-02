@@ -1,0 +1,7 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <coverage>
+        <report>
+            <html outputDirectory="coverage/"/>
+        </report>
+    </coverage>
+</phpunit>
