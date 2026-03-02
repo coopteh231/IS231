@@ -7,16 +7,16 @@ namespace Composer\Autoload;
 class ComposerStaticInit470fa6100ef6e9e5b5bab69d3682877a
 {
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'F' => 
         array (
-            'App\\' => 4,
+            'Facebook\\WebDriver\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'App\\' => 
+        'Facebook\\WebDriver\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/..' . '/php-webdriver/webdriver/lib',
         ),
     );
 

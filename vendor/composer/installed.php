@@ -1,21 +1,30 @@
 <?php return array(
     'root' => array(
-        'name' => 'coopteh/soa-project',
+        'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e4cfe1fb596ad0461d11c026092f1d51e3d476e1',
-        'type' => 'project',
+        'reference' => 'c352bd188bb850b9143df4294426cf8303f34f53',
+        'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'coopteh/soa-project' => array(
+        '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e4cfe1fb596ad0461d11c026092f1d51e3d476e1',
-            'type' => 'project',
+            'reference' => 'c352bd188bb850b9143df4294426cf8303f34f53',
+            'type' => 'library',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-webdriver/webdriver' => array(
+            'pretty_version' => '1.1.3',
+            'version' => '1.1.3.0',
+            'reference' => 'b7186fb1bcfda956d237f59face250d06ef47253',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-webdriver/webdriver',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
