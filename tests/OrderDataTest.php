@@ -24,5 +24,9 @@ class OrderDataTest extends TestCase
         $this->data['email'] = "ivanovexample.com";                           
         $this->assertSame( false, 
                            $this->obj->validate($this->data) );                           
+        $this->data['email'] = "ivanov@example.com";
+        $this->data['phone'] = "9007009911";    // неправильный номер (1 цифры не хватает)
+        $this->assertSame( false, 
+                           $this->obj->validate($this->data) );                           
     }
 }
